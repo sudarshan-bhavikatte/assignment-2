@@ -1,0 +1,118 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color:white;
+    width: 375px;
+    height: 3121px;
+}
+
+#front_page {
+    margin: auto;
+    width: 375px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(rome.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+}
+
+#navbar_name {
+    font-family: Inter;
+    font-size: 30.4px;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+}
+
+#navbar_opt {
+    font-size: 26.25px;
+    font-weight: 900;
+    color: white;
+}
+
+#frontpage_dis {
+    width: 314px;
+    height: 429px;
+    top: 285px;
+    left: 32px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#blank {
+    background-color: white;
+    width: 90px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#dis_big_text {
+    width: 314px;
+    height: 186px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    left: 0px;
+    font-family: Libre Caslon Display;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 61.8px;
+    text-align: left;
+    color: white;
+}
+
+#dis_small_text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30.33px;
+    text-align: left;
+    color: white;
+}
+
+#learnmore_button {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    width: 153px;
+    height: 42px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+#news_reads {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #000;
+    margin-top: 72px;
+    margin-left: 32px;
+    margin-bottom: 72px;
+}
+
+.art{
+    display: flex;
+    flex-direction: column;
+}
+
+.art div {
+    margin: auto;
+}
